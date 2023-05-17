@@ -1,5 +1,5 @@
 # Version
----
+
 
 ```shell
 NVIM v0.9.0
@@ -8,7 +8,7 @@ LuaJIT 2.1.0-beta3
 ```
 
 # Changes
----  
+
 You can type tree to see the file structure, my tree is below:
 ```shell
 .
