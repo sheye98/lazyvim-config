@@ -21,12 +21,14 @@ map("i", "jj", "<esc>")
 -- Visual model
 map("v", "J", ":m '>+1<CR>gv=gv'")
 map("v", "K", ":m '>-2<CR>gv=gv'")
+map("v", "L", "$")
+map("v", "H", "^")
 
 -- Normal model
 map("n", "L", "$")
 map("n", "H", "^")
 
--- buffers
+-- Buffers
 if Util.has("bufferline.nvim") then
   map("n", "<S-tab>", "<cmd>BufferLineCyclePrev<cr>", { desc = "Prev buffer" })
   map("n", "<tab>", "<cmd>BufferLineCycleNext<cr>", { desc = "Next buffer" })
