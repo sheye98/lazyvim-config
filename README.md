@@ -8,10 +8,10 @@ LuaJIT 2.1.0-beta3
 ```
 # Icon and Fonts
 
-I use iterm as my terminal, you can use a nerd font for your termimal.
-In this title, i recommand [JetBrain Mono Nerd font](https://www.nerdfonts.com/#downloads)
-Take mine iterm as a example, open settings > profiles > text > Fonts
-Check Anti-aliased block to make you characters look more smooth 
+I use iterm as my terminal, you can use a nerd font for your termimal.  
+In this title, i recommand [JetBrain Mono Nerd font](https://www.nerdfonts.com/#downloads)  
+Take mine iterm as a example, open settings > profiles > text > Fonts  
+Check Anti-aliased block to make you characters look more smooth   
 
 # keymaps
 
