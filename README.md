@@ -44,5 +44,5 @@ All the changes of my personal config is below: **~/.config/lua/keymaps.lua**
 |K               |move lines up                            |v     |
 |L               |move cursor to line start                |v,n   |
 |H               |move cursor to line end                  |v,n   |
-|<S-tab>         |jump to previous buffer                  |n     |
+|<Shift-tab>         |jump to previous buffer              |n     |
 |tab             |jump to next buffer                      |n     |
