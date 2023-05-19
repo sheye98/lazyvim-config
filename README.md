@@ -35,11 +35,14 @@ You can type tree to see the file structure, my tree is below:
 
 4 directories, 9 files
 ```
-All the changes of my personal config is below ~/.config/lua/keymaps.lua.
+All the changes of my personal config is below: **~/.config/lua/keymaps.lua**
 
-+ type jj to quit insert model
-+ type J to move down in visual model
-+ type K to move up in visual model
-+ type L to move line end in normal model and visual model
-+ type H to move line start in normal model and visual model
-+ type <Shift+tab> to preview table in normal model
+|Key             |Description                              |Model |
+|----------------|-----------------------------------------|----- |
+|jj              |quit insert model                        |i     |
+|J               |move lines down                          |v     |
+|K               |move lines up                            |v     |
+|L               |move cursor to line start                |v,n   |
+|H               |move cursor to line end                  |v,n   |
+|<S-tab>         |jump to previous buffer                  |n     |
+|tab             |jump to next buffer                      |n     |
