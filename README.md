@@ -35,6 +35,7 @@ You can type tree to see the file structure, my tree is below:
 
 4 directories, 9 files
 ```
+
 All the changes of my personal config is below: **~/.config/lua/keymaps.lua**
 
 |Key             |Description                              |Model |
@@ -44,5 +45,10 @@ All the changes of my personal config is below: **~/.config/lua/keymaps.lua**
 |K               |move lines up                            |v     |
 |L               |move cursor to line start                |v,n   |
 |H               |move cursor to line end                  |v,n   |
-|<Shift-tab>         |jump to previous buffer              |n     |
+|<Shift-tab>     |jump to previous buffer                  |n     |
 |tab             |jump to next buffer                      |n     |
+
+And some keymaps not be metioned in [lazyvim.org](https://www.lazyvim.org/keymaps)
+|Key             |Description                              |Model |
+|----------------|-----------------------------------------|----- |
+|<Ctrl-d>        |close the hover terminal                 |n     |
