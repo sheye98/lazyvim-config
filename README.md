@@ -55,4 +55,4 @@ And some keymaps not be metioned in [lazyvim.org](https://www.lazyvim.org/keymap
 
 # Trouble shooting
 
-If you open lazyvim and find treesitter download parsers error,pls download the parsers manually with TSInstall /<language/>.You can **cd ~/.config/nvim/plugins/nvim-treesitter.lua** to see the propertity **ensure_installed** that you specify to install.
+If you open lazyvim and find treesitter download parsers error,pls download the parsers manually with TSInstall \<language\>.You can **cd ~/.config/nvim/plugins/nvim-treesitter.lua** to see the propertity **ensure_installed** that you specify to install.
