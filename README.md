@@ -52,3 +52,7 @@ And some keymaps not be metioned in [lazyvim.org](https://www.lazyvim.org/keymap
 |Key             |Description                              |Model |
 |----------------|-----------------------------------------|----- |
 |\<Ctrl-d\>      |close the hover terminal                 |n     |
+
+# Trouble shooting
+
+If you open lazyvim and find treesitter download parsers error,pls download the parsers manually with TSInstall <language>.You can == cd ~/.config/nvim/plugins/nvim-treesitter.lua == to see the propertity ** ensure_installed ** that you specify to install.
