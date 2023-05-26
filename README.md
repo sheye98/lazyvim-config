@@ -55,4 +55,20 @@ And some keymaps not be metioned in [lazyvim.org](https://www.lazyvim.org/keymap
 
 # Trouble shooting
 
-If you open lazyvim and find treesitter download parsers error,pls download the parsers manually with TSInstall \<language\>.You can **cd ~/.config/nvim/plugins/nvim-treesitter.lua** to see the propertity **ensure_installed** that you specify to install.
+If you have the problem with treesitter download parser error.Just check you network first.You can enter below command:
+
+
+````shell
+curl https://www.google.com
+````
+
+If connect timeout or other wired status code.Congratulation!Your network don't have proxy or your curl don't have proxy precisely.
+You can just type these commands to set your curl proxy.
+
+````shell
+mkdir ~/.curlrc
+
+# Then type these in your .curlrc files
+# For example my config is proxy = localhost:7890 
+proxy = <proxy_host>:<proxy_port>
+````
